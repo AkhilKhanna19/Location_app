@@ -1,2 +1,2 @@
 # Location_app
-this is an location based application
+This is a Location application
