@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:andoid="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/images"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:text="@string/lbl_you_are_at"
+        android:textSize="25dp"
+        android:id="@+id/text_id"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/note"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_below="@+id/text_id"
+        android:textStyle="italic"
+        android:padding="20dp"
+        />
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundbuttonhove"
+        android:text="HELP"
+        android:textSize="25sp"
+        android:layout_below="@+id/btnLocationUpdates"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/btnLocationUpdates"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@mipmap/rszgp"
+        android:layout_below="@+id/lblLocation"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        />
+
+</RelativeLayout>

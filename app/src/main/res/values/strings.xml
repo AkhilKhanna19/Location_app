@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LocationTestOne</string>
+    <string name="lbl_you_are_at">Press the HELP button to send your location to the three saved Mobile Numbers.</string>
+    <string name="note">Note: Press Location button,to activate location services</string>
+    <string name="btn_get_location">GET MY LOCATION</string>
+    <string name="btn_start_location_updates">START LOCATION UPDATES</string>
+    <string name="btn_stop_location_updates">STOP LOCATION UPDATES</string>
+    <string name="no_address_found">No address found</string>
+    <string name="address_found">Address founf</string>
+    <string name="invalid_lat_long_used">Invalid lat and long</string>
+    <string name="service_not_available">Service not available</string>
+    <string name="no_geocoder_available">No Geocoder</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="submit_button">Submit</string>
+    <string name="gps_network_not_enabled">GPS not enabled!</string>
+    <string name="open_location_settings">This app wants to access your location</string>
+    <string name="Cancel">Cancel</string>
+    <string name="enable">Enable</string>
+    <string name="mobile_text">Please enter three mobile numbers on which your current location will be sent in case of emergency.</string>
+    <string name="first_mobile">First Mobile Number</string>
+    <string name="second_mobile">Second Mobile Number</string>
+    <string name="third_mobile">Third Mobile Number</string>
+</resources>
