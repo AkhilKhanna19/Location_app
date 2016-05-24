@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="locationtestone.app.com.locationtestone.Main3Activity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_id"
+        android:text="@string/mobile_text"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingBottom="30dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_mobile"
+        android:layout_below="@+id/text_id"
+        android:id="@+id/first_mobile_id"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/second_mobile"
+        android:id="@+id/second_mobile"
+        android:layout_below="@+id/first_mobile_id"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/third_mobile"
+        android:id="@+id/third_mobile"
+        android:layout_below="@+id/second_mobile"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_mobile"
+        android:layout_below="@+id/third_mobile"
+        android:text="@string/submit_button"
+        android:layout_marginTop="20dp"
+        android:background="#f12f96"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
